@@ -1,0 +1,45 @@
+body {
+  overflow-x: hidden;
+}
+
+.vacancy-link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+.vacancy-link:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.subscribe-button {
+  background-color: rgb(22, 226, 22);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.subscribe-button:hover {
+  background-color: rgb(10, 190, 10);
+}
+
+.close-button {
+  background-color: rgb(255, 0, 0);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.close-button:hover {
+  background-color: rgb(202, 0, 0);
+}
+
+.responded {
+  color: rgb(19, 202, 19);
+  position: absolute;
+  top: 0;
+  right: 5px;
+}
