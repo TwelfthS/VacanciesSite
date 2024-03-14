@@ -1,4 +1,3 @@
-import React, { useCallback } from "react"
 import { useDispatch, useSelector } from "react-redux"
 import { Link } from "react-router-dom"
 import { logout } from "./actions/auth"
@@ -6,9 +5,9 @@ import { logout } from "./actions/auth"
 function Header() {
     const dispatch = useDispatch()
     const currentUser = useSelector((state) => state.auth.user)
-    const logOut = useCallback(() => {
+    const logOut = () => {
         dispatch(logout())
-    }, [dispatch])
+    }
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
           <div className="container-fluid">
